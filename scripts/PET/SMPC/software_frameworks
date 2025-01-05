@@ -1,0 +1,37 @@
+TenSEAL: This is a library built on top of Microsoft's Simple Encrypted Arithmetic Library (SEAL) for homomorphic encryption. It provides functionalities for performing secure computations on encrypted data, including SMPC.
+Charm-Crypto: This is a Python library for secure multiparty computation, including various cryptographic primitives like homomorphic encryption, attribute-based encryption, and more.
+FHEW: The Fully Homomorphic Encryption Workbench (FHEW) is a library focused specifically on fully homomorphic encryption, which allows computations to be performed directly on encrypted data. It's not necessarily an SMPC library, but it can be used in conjunction with SMPC techniques.
+SCALE-MAMBA: This is a framework for Secure Computation Algorithms from LEuven for Multi-party Applications. It's designed to provide efficient implementations of various secure computation protocols, including SMPC.
+
+
+alternatives to pysyft
+
+===
+
+
+CryptoNets: CryptoNets is a library for training neural networks over encrypted data. It leverages homomorphic encryption to allow the training of neural networks on encrypted data while preserving privacy.
+SEAL-NN: SEAL-NN is a library built on top of Microsoft SEAL for training neural networks using homomorphic encryption. It provides a high-level interface for training neural networks on encrypted data.
+SCALE-MAMBA: SCALE-MAMBA is a framework for Secure Computation Algorithms from Leuven for Multi-party Applications. It provides efficient implementations of various secure computation protocols, including SMPC, and can be used for federated learning as well.
+PyHELib: PyHELib is a Python wrapper for the Homomorphic Encryption Library (HElib), which provides implementations of homomorphic encryption schemes. It can be used for building secure computation applications, including federated learning.
+SPDZ: SPDZ is a protocol for secure multiparty computation that enables parties to jointly compute functions on their private inputs while keeping those inputs encrypted. It can be used for various secure computation tasks, including federated learning.
+SecureML: SecureML is a library for privacy-preserving machine learning that provides support for various cryptographic protocols, including homomorphic encryption and secure multiparty computation. It can be used for building privacy-preserving machine learning applications, including federated learning.
+These frameworks and libraries offer different features, trade-offs, and levels of abstraction, so you may want to explore them based on your specific requirements and preferences. Additionally, you should consider factors such as performance, scalability, and ease of use when choosing a framework or library for your project.
+
+
+==
+
+Apart from PySyft and TenSEAL, there are several other frameworks and libraries available that provide support for Secure Multiparty Computation (SMPC) and federated learning. Here are a few notable ones:
+
+1. **CryptoNets**: CryptoNets is a library for training neural networks over encrypted data. It leverages homomorphic encryption to allow the training of neural networks on encrypted data while preserving privacy.
+
+2. **SEAL-NN**: SEAL-NN is a library built on top of Microsoft SEAL for training neural networks using homomorphic encryption. It provides a high-level interface for training neural networks on encrypted data.
+
+3. **SCALE-MAMBA**: SCALE-MAMBA is a framework for Secure Computation Algorithms from Leuven for Multi-party Applications. It provides efficient implementations of various secure computation protocols, including SMPC, and can be used for federated learning as well.
+
+4. **PyHELib**: PyHELib is a Python wrapper for the Homomorphic Encryption Library (HElib), which provides implementations of homomorphic encryption schemes. It can be used for building secure computation applications, including federated learning.
+
+5. **SPDZ**: SPDZ is a protocol for secure multiparty computation that enables parties to jointly compute functions on their private inputs while keeping those inputs encrypted. It can be used for various secure computation tasks, including federated learning.
+
+6. **SecureML**: SecureML is a library for privacy-preserving machine learning that provides support for various cryptographic protocols, including homomorphic encryption and secure multiparty computation. It can be used for building privacy-preserving machine learning applications, including federated learning.
+
+These frameworks and libraries offer different features, trade-offs, and levels of abstraction, so you may want to explore them based on your specific requirements and preferences. Additionally, you should consider factors such as performance, scalability, and ease of use when choosing a framework or library for your project.
