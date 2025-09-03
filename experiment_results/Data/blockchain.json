@@ -1,0 +1,29 @@
+[
+    {
+        "index": 0,
+        "previous_hash": "0",
+        "data": "Genesis Block",
+        "weights_hash": "none",
+        "weights_path": "none",
+        "nonce": 0,
+        "hash": "2c6d2562ce0398a079751ace427b3183f4899b75f64d3dcbe83f836a6149d748"
+    },
+    {
+        "index": 0,
+        "previous_hash": "2c6d2562ce0398a079751ace427b3183f4899b75f64d3dcbe83f836a6149d748",
+        "data": "Aggregated model updated and mined in round 1.",
+        "weights_hash": "3c5e3080ea5b18f10d53243f5130743fe334017bf0779b6a1373a3ac667a32f8",
+        "weights_path": "./model_weights/aggregated_model_weights.weights.h5",
+        "nonce": 34987,
+        "hash": "000033417afc5852eb3bd17b3a3ff60d2a0d511b983ba027d4e0b3cc7e84a716"
+    },
+    {
+        "index": 2,
+        "previous_hash": "000033417afc5852eb3bd17b3a3ff60d2a0d511b983ba027d4e0b3cc7e84a716",
+        "data": "Aggregated model updated and mined in round 2.",
+        "weights_hash": "df5e86948e7fba105909c89602d6ea0f6ae90bcc12356e1eff2fc82ca0a0c846",
+        "weights_path": "./model_weights/aggregated_model_weights.weights.h5",
+        "nonce": 55576,
+        "hash": "000003f40c86befc804ab491e4d54caa68048fac1236873ff062485c4595db5d"
+    }
+]
